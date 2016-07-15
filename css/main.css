@@ -26,3 +26,14 @@ figcaption{text-align: center; font-weight: bold;margin-top: 11px;}
 .s_nn{width: 503px;float: left;margin-left: 27px;margin-bottom: 27px;}
 .s_aa{overflow: hidden;border:1px solid #ccc;}
 .s_aa li{float: left;}
+k_news{width: 1000px;overflow: hidden;margin-bottom: 30px;}
+.k_news li{width: 228px;height: 310px;float: left;border:1px solid #ccc;padding: 10px;}
+.k_news figure img{margin-bottom: 14px;}
+.k_news figcaption{position: relative;}
+.k_news time{margin-bottom: 22px;}
+#container{overflow: hidden;}
+.k_m_b{width: 1000px;}
+.k_b_left{background-color: yellow;width: 300px;float: left;overflow: hidden;margin-right: 35px;padding: 5px;}
+.k_b_left li{float: left;padding: 0 15px;}
+.k_b_center{background-color: pink;width: 300px;float: left;margin-right: 35px;padding: 5px;}
+.k_b_right{background-color: aqua;width: 300px;float: left;padding: 5px;}
