@@ -23,17 +23,15 @@
 				<li><a href="#">사이트맵</a></li>
 			</ul>
 			<div>
-				<form action="#" method="get">
+				<form action="#" method="get" class="l_sch_keyword">
 					<fieldset>
 						<legend>자료검색</legend>
-						<label for="sch_keyword" class="hide">자료검색
-						<input type="text" name="sch_keyword" id="sch_keyword" title="검색창" placeholder="검색어 입력"/></label>
-						<input type="image" src="images/icon_search.gif" alt="검색" />
+						<label for="sch_keyword" class="hide">자료검색</label>
+						<input type="search" name="btn_search" id="btn_search">
+						<input type="image" src="images/icon_search.gif" name="img_search" id="img_search">
 					</fieldset>
 				</form>
-			</div>
-			<nav>
-				<h2 class="hide">주메뉴</h2>
+			<h2 class="hide">주메뉴</h2>
 				<ul class="gnb_menu">
 					<li><a href="#">종합민원</a>
 						<ul>
@@ -111,21 +109,21 @@
 							<li><a href="#">네티즌마당</a></li>
 							<li><a href="#">IT희망나눔세상</a></li>
 							<li><a href="#">마을공동체</a></li>
-							<li><a href="#">동재기 나눔장터</a></li>
-							<li><a href="#">지방공기업</a></li>
-							<li><a href="#">사진 공모전</a></li>
-							<li><a href="#">사회적경제지원센터</a></li>
+							<li><a href="#">동재기 나눔장터<a></li>
+							<li><a href="#">지방공기업<a></li>
+							<li><a href="#">사진 공모전<a></li>
+							<li><a href="#">사회적경제지원센터<a></li>
 						</ul>
 					</li>
 					<li><a href="#">우리동작</a>
 						<ul>
-							<li><a href="#">열린구청장실</a></li>
+							<li><a href="#">열린구청장실<a></li>
 							<li><a href="#">동작소개</a></li>
 							<li><a href="#">구청안내</a></li>
 							<li><a href="#">홍보자료실</a></li>
 							<li><a href="#">자매결연도시</a></li>
-							<li><a href="#">동작사진자료실</a></li>
-							<li><a href="#">구민상 구민표창</a></li>
+							<li><a href="#">동작사진자료실<a></li>
+							<li><a href="#">구민상 구민표창<a></li>
 						</ul>
 					</li>
 				</ul>
@@ -133,6 +131,13 @@
 		</header>	
 		<div id="visual">
 			<img src="images/visual.jpg" alt="현충원" />
+			<div class="l_visual_text">
+				<p>행복한 변화, 사람사는 동작</p>
+				<p>
+					<span>생활의 활력</span>을 불어넣는<br>
+					<span>아름다운도시</span>로 만들겠습니다.
+				</p>
+			</div>
 		</div>
 		<div id="container">
 			<div class="m_pie">
@@ -148,69 +153,76 @@
 					<li><a href="#"><img src="images/pie_icon9.gif" alt="민원상담" />민원상담</a></li>
 				</ul>
 			</div>
-			<div>
+			<div class="s_ma">
 				<h3 class="hide">탭메뉴</h3>
 				<div id="tab_menu">
-					<h4><a href="#">공지사항</a></h4>
+					<h4><a href="#" class="s_on">공지사항</a></h4>
 					<div class="tm_notice">
-						<ul>
-							<li><a href="#">'일본뇌염 경보 발령'에 따른 주의사항 안내</a></li>
-							<li><a href="#">평생학습관 &lt;방학 특강&gt; 수강생 모집 안내</a></li>
-							<li><a href="#">2016. 동작구 일자리플러스센터 교육(독서플래너 양성과정) 교육생 추가모집</a></li>
-							<li><a href="#">7월은 재산세 납부의 달입니다!</a></li>
-							<li><a href="#">7.12일(화) 식중독지수 72【식중독 경고】</a></li>
+						<ul class="s_mm">
+							<li><a href="#">'일본뇌염 경보 발령'에 따른 주의사항 안내</a><span>2016-06-10</span></li>
+							<li><a href="#">평생학습관 &lt;방학 특강&gt; 수강생 모집 안내</a><span>2016-06-10</span></li>
+							<li><a href="#">2016. 동작구 일자리플러스센터 교육(독서플래너 양성과정)...</a><span>2016-06-10</span></li>
+							<li><a href="#">7월은 재산세 납부의 달입니다!</a><span>2016-06-10</span></li>
+							<li><a href="#">7.12일(화) 식중독지수 72【식중독 경고】</a><span>2016-06-10</span></li>
 						</ul>
-						<p><a href="#"><img src="images/btn_more.gif" alt="공지사항 더보기"></a></p>
+						<p class="s_m"><a href="#"><img src="images/btn_more.gif" alt="공지사항 더보기"></a></p>
 					</div>
-					<h4><a href="#">보도자료</a></h4>
+					<h4><a href="#" class="s_t">보도자료</a></h4>
 					<div class="tm_pds">
-						<ul>
-							<li><a href="#">7월 14일(목) 보도 : 빌딩숲 동심위해 진짜 숲 선물한 동작 등</a></li>
-							<li><a href="#">7월 13일(수) 보도 : 마늘대, 버리지 말고 모기 퇴치제로 사용</a></li>
-							<li><a href="#">원탁의 주민들, 동작의 미래 위해 ‘거침없이 톡’</a></li>
-							<li><a href="#">CCTV 달고 양심거울 붙여도… 앞집 사람 또 버렸네</a></li>
-							<li><a href="#">구청들 쓰레기 줄이기 ‘안간힘’</a></li>
+						<ul class="s_bb">
+							<li><a href="#">7월 14일(목) 보도 : 빌딩숲 동심위해 진짜 숲 선물한 동작 등</a><span>2016-06-10</span></li>
+							<li><a href="#">7월 13일(수) 보도 : 마늘대, 버리지 말고 모기 퇴치제로 사용</a><span>2016-06-10</span></li>
+							<li><a href="#">원탁의 주민들, 동작의 미래 위해 ‘거침없이 톡’</a><span>2016-06-10</span></li>
+							<li><a href="#">CCTV 달고 양심거울 붙여도… 앞집 사람 또 버렸네</a><span>2016-06-10</span></li>
+							<li><a href="#">구청들 쓰레기 줄이기 ‘안간힘’</a><span>2016-06-10</span></li>
 						</ul>
-						<p><a href="#"><img src="images/btn_more.gif" alt="보도자료 더보기"></a></p>
+						<p class="s_m"><a href="#"><img src="images/btn_more.gif" alt="보도자료 더보기"></a></p>
 					</div>
-					<h4><a href="#">고시공고</a></h4>
+					<h4><a href="#" class="s_u">고시공고</a></h4>
 					<div class="tm_alert">
-						<ul>
+						<ul class="s_bb">
 							<li><a href="#">대기환경보전법 위반 과태료 사전통지 공시송달</a></li>
-							<li><a href="#">도로명주소 폐지 고시(건물번호)</a></li>
-							<li><a href="#">도로명주소 부여 고시(건물번호)</a></li>
-							<li><a href="#">축산물판매업 영업신고사항 직권말소 공고</a></li>
-							<li><a href="#">버스전용차로위반 과태료 사전통보서 반송분 공시송달</a></li>
+							<li><a href="#">도로명주소 폐지 고시(건물번호)</a><span>2016-06-10</span></li>
+							<li><a href="#">도로명주소 부여 고시(건물번호)</a><span>2016-06-10</span></li>
+							<li><a href="#">축산물판매업 영업신고사항 직권말소 공고</a><span>2016-06-10</span></li>
+							<li><a href="#">버스전용차로위반 과태료 사전통보서 반송분 공시송달</a><span>2016-06-10</span></li>
 						</ul>
-						<p><a href="#"><img src="images/btn_more.gif" alt="고시공고 더보기"></a></p>
+						<p class="s_m"><a href="#"><img src="images/btn_more.gif" alt="고시공고 더보기"></a></p>
 					</div>
-					<h4><a href="#">입법예고</a></h4>
+					<h4><a href="#" class="s_p">입법예고</a></h4>
 					<div class="tm_law">
-						<ul>
-							<li><a href="#">서울특별시 동작구 장애인공무원 편의지원 조례(안) 입법예고</a></li>
+						<ul class="s_bb">
+							<li><a href="#">서울특별시 동작구 장애인공무원 편의지원 조례(안) 입법예고</a><span>2016-06-10</span></li>
 							<li><a href="#">서울특별시 동작구 동물 보호 일부개정조례안 입법예고</a></li>
-							<li><a href="#">서울특별시동작구동명칭및구역획정조례 일부개정 조례안 입법예고</a></li>
-							<li><a href="#">서울특별시 동작구 행정기구 설치 조례 일부개정 조례안 입법예고</a></li>
-							<li><a href="#">서울특별시 동작구 일자리플러스센터 설치 및 운영 규정안 입법예고></a></li>
+							<li><a href="#">서울특별시동작구동명칭및구역획정조례 일부개정 조례안 입법예고</a><span>2016-06-10</span></li>
+							<li><a href="#">서울특별시 동작구 행정기구 설치 조례 일부개정 조례안 입법예고</a><span>2016-06-10</span></li>
+							<li><a href="#">서울특별시 동작구 일자리플러스센터 설치 및 운영...</a><span>2016-06-10</span></li>
 						</ul>
-						<p><a href="#"><img src="images/btn_more.gif" alt="입법예고 더보기"></a></p>
+						<p class="s_m"><a href="#"><img src="images/btn_more.gif" alt="입법예고 더보기"></a></p>
 					</div>
-					<h4><a href="#">교육/문화행사</a></h4>
+					<h4><a href="#" class="s_o">교육/문화행사</a></h4>
 					<div class="tm_event">
-						<ul>
-							<li><a href="#">평생학습관 &lt;방학 특강&gt; 수강생 모집 안내</a></li>
-							<li><a href="#">제10차 자살예방지킴이 교육안내</a></li>
-							<li><a href="#">2017학년도 수시전형 대비 1:1 맞춤형 진학 상담 기초 자료 조사지(7.14(목) 16:00 제출 마감)</a></li>
-							<li><a href="#">2016. 동작구일자리플러스센터 교육(독서플래너 양성과정) 교육생 모집	</a></li>
-							<li><a href="#">2016. 양성평등주간 기념 『황진이밴드 축하공연 및 방우정 명사특강』개최</a></li>
+						<ul class="s_bb">
+							<li><a href="#">평생학습관 &lt;방학 특강&gt; 수강생 모집 안내</a><span>2016-06-10</span></li>
+							<li><a href="#">제10차 자살예방지킴이 교육안내</a><span>2016-06-10</span></li>
+							<li><a href="#">2017학년도 수시전형 대비 1:1 맞춤형 진학 상담 기초 자료 조사지</a><span>2016-06-10</span></li>
+							<li><a href="#">2016. 동작구일자리플러스센터 교육(독서플래너 양성과정)...</a><span>2016-06-10</span></li>
+							<li><a href="#">2016. 양성평등주간 기념 『황진이밴드 축하공연 및 방우정...</a></li>
 						</ul>
-						<p><a href="#"><img src="images/btn_more.gif" alt="교육문화행사 더보기"></a></p>
-					</div>
+						<p class="s_m"><a href="#"><img src="images/btn_more.gif" alt="교육문화행사 더보기"></a></p>
+						</div>
+						<div>
+							<p class="s_b"><a href="#">동작알림</a></p>
+							<p class="s_b"><a href="#">보건소</a></p>
+							<p class="s_b"><a href="#">구의회</a></p>
+							<p class="s_b"><a href="#">자치법규</a></p>
+						</div>
+					
 				</div>
 				<!-- //main_tab_menu -->
-			</div>
-			<div>
-				<ul>
+			
+			<div class="s_nn">
+				<ul class="s_aa">
 					<li><a href="#"><img src="images/rec_icon1.gif" alt="동작구청 열린 구청장실" /></a></li>
 					<li><a href="#"><img src="images/rec_icon2.gif" alt="동작구청 온라인 접수" /></a></li>
 					<li><a href="#"><img src="images/rec_icon3.gif" alt="동작구청 시장장터" /></a></li>
@@ -221,6 +233,9 @@
 					<li><a href="#"><img src="images/rec_icon8.gif" alt="동작구청 소통미디어" /></a></li>
 				</ul>
 			</div>
+			</div>
+
+
 			<div>
 				<ul class="k_news">
 					<li>
@@ -438,10 +453,8 @@
 			<address>
 				(06928) 서울특별시 동작구 장승배기로 161 <br />
 				대표전화: 02-820-1114 (120 다산콜센터로 연결) 02-820-1119 (야간, 공휴일 당직실)
+				<p>Copyright 2011 Dongjak-gu Office.ALL Rights reserved.</p>
 			</address>
-			<p>
-				Copyright 2011 Dongjak-gu Office.ALL Rights reserved.
-			</p>
 			<ul>
 				<li><img src="images/footer_wa.gif" alt="" /></li>
 				<li><img src="images/footer_waweb.gif" alt="" /></li>

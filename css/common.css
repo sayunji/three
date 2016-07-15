@@ -1,0 +1,33 @@
+#wrap {width: 1000px;margin:0 auto; position:relative;}
+h1 {margin-top: 16px;}
+.skipmenu a {background-color: #000; color:#fff;text-align: center;position: absolute;width: 1000px; top:-9999px;padding:8px 0;}
+.skipmenu a:focus {top:0px;}
+.util_menu {overflow: hidden; position: absolute; top:0px; right: 175px; }
+.util_menu li {float: left;border: 1px solid #eae6e7; padding: 3px 10px; font-size: 12px;}
+.l_sch_keyword {position: absolute; top: -4px; right: 0;}
+.l_sch_keyword input[type=text] {width: 120px;padding:0 4px;}
+.gnb_menu {overflow: hidden; margin: 13px 0 1px; }
+.gnb_menu>li {float: left;padding:7px 24px;border-right: 1px solid #0a90cd;}
+.gnb_menu>li:first-child{border-left: 1px solid #0a90cd;}
+.gnb_menu>li:first-child+li+li+li+li+li+li {padding-right: 33px;}
+.gnb_menu>li>a{font-size: 22px; font-weight: bold; letter-spacing: 1px; color:#fff;}
+.gnb_menu ul {display:block;  position: absolute; margin-top: 20px; z-index: 1;}
+.gnb_menu ul li {padding:4px 0;}
+/***header***/
+#visual {position: relative;}
+#visual .l_visual_text {position: absolute;left:25px; top:15px; letter-spacing: 25px; font-size: 25px; color: #fff; letter-spacing: -3px;}
+#visual .l_visual_text p:first-child {margin-bottom: 7px;}
+#visual .l_visual_text p:first-child+p {line-height: 30px;}
+#visual .l_visual_text span {font-size: 29px; font-weight: bold;}
+/***visual***/
+#footer {position: relative;}
+#footer address {margin-left:170px;}
+#footer p:first-child {position: absolute; left:0; top:0;}
+#footer ul{overflow: hidden;  position: absolute; right:0; top:0;}
+#footer ul li {float: left;}
+
+/***footer***/
+
+
+
+
