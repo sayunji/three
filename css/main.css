@@ -1,8 +1,8 @@
 @charset "utf-8";
 #container{margin: 0 auto;}
-.s_d{margin-top: 19px;width: 955px;padding: 0 22px;margin-bottom: 27px;}
+.s_d{margin-top: 19px;width: 1000px;padding: 0 22px;margin-bottom: 27px;}
 .s_i {overflow: hidden;}
-.s_i li{float: left;padding-left: 41px;}
+.s_i li{float: left;padding-left: 32px;}
 .s_i li:first-child{padding: 0;}
 .s_i a{color: #757575;}
 figure{text-align: center;}
