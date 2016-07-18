@@ -26,25 +26,3 @@ figcaption{text-align: center; font-weight: bold;margin-top: 11px;}
 .s_nn{width: 503px;float: left;margin-left: 27px;margin-bottom: 27px;}
 .s_aa{overflow: hidden;border:1px solid #ccc;}
 .s_aa li{float: left;}
-.k_news{width: 1000px;overflow: hidden;margin-bottom: 30px;}
-.k_news li{width: 228px;height: 310px;float: left;border:1px solid #ccc;padding: 10px;}
-.k_news figure{position: relative;}
-.k_news figure img{margin-bottom: 14px;}
-.k_news time{position:absolute;right:0;}
-.k_news figcaption p{padding-top:20px;height:20px;line-height:20px;}
-.k_m_b{overflow:hidden;margin-bottom:25px;}
-.k_b_left{width:314px;float:left;overflow:hidden;padding-right:42px;height:244px;border:1px solid #ccc;}
-.k_b_left h5{padding:7px;font-weight:bold;}
-.b_l_1{width:140px;float:left;padding:5px;}
-.b_l_1 li{line-height:20px;}
-.b_l_2{width:140px;float:right;padding:5px;}
-.b_l_2 li{line-height:20px;}
-.k_b_center{width:314px;float:left;height:244px;border:1px solid #ccc;overflow:hidden;padding-right:10px;border-left:none;}
-.k_b_center h5{width:286px;height:16px;padding:7px;font-weight:bold;}
-.b_c_1{width:140px;float:left;padding-left:10px;}
-.b_c_2{width:140px;float:right;}
-.k_b_center li{height:25px;line-height:25px;}
-.k_b_right{width:294px;height:230px;padding:7px 11px;float:right;border:1px solid #ccc;border-left:none;}
-.k_b_right select{width:200px;}
-.k_b_right h4{margin-bottom:10px;font-weight:bold;}
-.k_b_right fieldset{margin-bottom:10px;}
