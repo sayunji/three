@@ -35,12 +35,15 @@ figcaption{text-align: center; font-weight: bold;margin-top: 11px;}
 .k_news figcaption p{padding-top:14px;height:20px;line-height:20px;text-align: left;color: #000;}
 .k_news p+p{font-weight:normal;color: #000;}
 .k_m_b{overflow:hidden;margin-bottom:25px;}
-.k_b_left{width:314px;float:left;overflow:hidden;padding-right:42px;height:244px;border:1px solid #ccc;}
+.k_b_left{width:356px;float:left;overflow:hidden;height:244px;border:1px solid #ccc;}
 .k_b_left h5{padding:7px;font-weight:bold;}
-.b_l_1{width:140px;float:left;padding:5px;}
+.b_l_1{width:160px;float:left;padding:5px;}
 .b_l_1 li{line-height:20px;}
-.b_l_2{width:140px;float:right;padding:5px;}
+.b_l_2{width:160px;float:right;padding:5px;}
 .b_l_2 li{line-height:20px;}
+.k_m_b .icon_hit {padding-right: 15px; background:url(../images/icon_hit.gif) right center no-repeat;}
+.k_m_b .icon_new {padding-right: 15px; background:url(../images/icon_new.gif) right center no-repeat;}
+.k_m_b .icon_together {padding-right: 30px; background:url(../images/icon_hit.gif) 110px center no-repeat, url(../images/icon_new.gif) right center no-repeat;}
 .k_b_center{width:314px;float:left;height:244px;border:1px solid #ccc;overflow:hidden;padding-right:10px;border-left:none;}
 .k_b_center h5{width:286px;height:16px;padding:7px;font-weight:bold;}
 .b_c_1{width:140px;float:left;padding-left:10px;}
