@@ -8,7 +8,7 @@
 figure{text-align: center;}
 figcaption{text-align: center; font-weight: bold;margin-top: 11px;}
 .s_ma{overflow: hidden;}
-#tab_menu{width: 468px;position: relative; border:1px solid #ccc;float: left;}
+#tab_menu{width: 468px;position: relative; border:1px solid #ccc;float: left; height: 	256px;}
 #tab_menu h4 a{ background-color: #c8c6c7;padding: 18px 10px;position: absolute;top: 0;left: 0;font-weight: bold;}
 #tab_menu h4 .s_t{left: 68px;}
 #tab_menu h4 .s_u{left: 136px;}
@@ -22,9 +22,9 @@ figcaption{text-align: center; font-weight: bold;margin-top: 11px;}
 #tab_menu li{background: url(../images/dot.gif) 6px 8px no-repeat;padding-left: 15px;height: 25px;}
 .s_b{background-color: #b5c6cd;padding: 10px 20px; display: inline-block;margin-left: 24px;margin-bottom: 14px;margin-top: 20px;}
 .s_b a{color: #fff;}
-#tab_menu .s_m{position: absolute;top: 0;right: 0;}
+#tab_menu .s_m{position: absolute;top: 0;right: 0; overflow: hidden;}
 .s_nn{width: 503px;float: left;margin-left: 27px;margin-bottom: 27px;}
-.s_aa{overflow: hidden;border:1px solid #ccc;}
+.s_aa{overflow: hidden;border:1px solid #ccc; width: 496px; float: right;}
 .s_aa li{float: left;}
 
 .k_news{width: 1000px;overflow: hidden;margin-bottom: 30px;}
