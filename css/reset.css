@@ -8,5 +8,6 @@ input[type=text] {border: 1px solid #b4b4b4; height: 28px;}
 select{border: 1px solid #b4b4b4;}
 a{text-decoration: none; color:#333;}
 .hide, legend{position: absolute; left:-9999px;}
+caption{text-indent: -9999px;}
 fieldset {border: none;}
 h1,h2,h3,h4,h5,h6,address {font-size: 100%; font-weight: normal;font-style: normal;}
