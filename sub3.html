@@ -7,7 +7,7 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 	<link rel="stylesheet" href="css/base.css" />
 	<link rel="stylesheet" href="css/main.css" />
-	<link rel="stylesheet" href="css/sub2.css" />	
+	<link rel="stylesheet" href="css/sub3.css" />
 	<script type="text/javascript" src="js/html5shiv.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </head>
@@ -135,116 +135,160 @@
 		</div>
 		<div id="container">
 			<div id="sub_menu">
-				<h3>이용안내</h3>
+				<h3>우리동작</h3>
 				<ul>
-					<li><a href="#">로그인</a></li>
-					<li><a href="#">회원가입</a></li>
-					<li><a href="#">ID/PW찾기</a></li>
+					<li><a href="#">열린구청장실</a></li>
+					<li><a href="#">동작소개</a></li>
+					<li><a href="#">구청안내</a></li>
+					<li><a href="#">홍보자료실</a></li>
+					<li><a href="#">자매결연도시</a></li>
+					<li><a href="#">사진자료실</a></li>
+					<li><a href="#">구민표창</a></li>
 				</ul>
 			</div>
 			<div id="sub_content">
-				<h4>일반회원</h4>
+				<h4>구민표창</h4>
 				<p class="l_position">
-					<a href="index.html">HOME</a><a href="#">이용안내</a><a href="#">동작회원</a><span>회원가입</span>
+					<a href="index.html">HOME</a><a href="#">우리동작</a><span>구민표창</span>
 				</p>
-				<div class="sub_tbmenu">
-					<ul>
-						<li>
-							<a href="#"><figure><img src="images/sub_2/sub2_1.jpg" alt="회원구분">
-									<figcaption><span>STEP 01</span><br/>회원구분</figcaption></figure></a>
-							
-						</li>
-						<li>
-							<a href="#"><figure><img src="images/sub_2/sub2_2.jpg" alt="본인인증">
-									<figcaption><span>STEP 02</span><br/>본인인증</figcaption></figure></a>
-							
-						</li>
-						<li>
-							<a href="#"><figure><img src="images/sub_2/sub2_3.jpg" alt="약관동의">
-									<figcaption><span>STEP 03</span><br/>약관동의</figcaption></figure></a>
-							
-						</li>
-						<li>
-							<a href="#"><figure><img src="images/sub_2/sub2_4.jpg" alt="회원정보입력">
-									<figcaption><span>STEP 04</span><br/>회원정보입력</figcaption></figure></a>
-							
-						</li>
-						<li>
-							<a href=""><figure><img src="images/sub_2/sub2_5.jpg" alt="가입완료">
-									<figcaption><span>STEP 05</span><br/>가입완료</figcaption>
-							</figure></a>
-						</li>
-					</ul>
-				</div>
-				<div class="tt">
-					<form action="#" method="post">
+				<div id="search_wrap">
+					<form action="#" method="get">
 						<fieldset>
-							<legend>회원정보입력</legend>
-							<p class="form_txt2"><span class="red">*</span> 표시된 항목은 <span class="red">필수입력</span> 항목입니다</p>
-							<table class="table_row">
-								<caption>회원정보입력</caption>
-								<colgroup>
-									<col>
-									<col>
-								</colgroup>
+							<legend>날짜 검색어 창</legend>
+							<!-- <p>
+								<span>날짜</span><input type="text" name="first_date" id="first_date" title="검색할 처음날짜"><a href="#"><img src="images/sub_3/sub3__01.gif" alt="달력"></a> - <input type="text" name="final_date" id="final_date" title="검색할 마지막날짜"><a href="#"><img src="images/sub_3/sub3__01.gif" alt="달력"></a>
+							</p>
+							<p>
+								<span>검색어</span>
+								<select name="search_win" id="search_win" title="검색어 목록">
+									<option value="search_history">공적기록</option>
+									<option value="search_winner">수상자</option>
+								</select>
+								<input type="text" name="search_content" id="search_content" title="검색어 입력">
+							</p> -->
+							<table class="search_table">
+								<caption>검색 테이블</caption>
+								<!-- <colgroup>
+							 		<col width="">
+									<col width="">
+								</colgroup> -->
 								<tbody>
 									<tr>
-									<th scope="row"><label for="u_id"><span class="red">*</span> 아이디</label></th>
-										<td><input type="text" name="u_id" id="u_id" class="col_4">
-										<a href="#" class="nn"><img src="images/sub_2/sub2_7.jpg" alt="중복확인"></a><span class="form_txt">* 4-12자의 영문, 숫자만 가능, 첫글자는 영문</span></td>
-									</tr>
-									<tr>
-										<th scope="row"><label for="pw"><span class="red">*</span> 비밀번호</label></th>
-										<td><input type="password" name="pw" id="pw" class="col_4"> <span class="form_txt">* 10자~ 15자이며 영문, 숫자, 특수문자 중 2가지 이상 혼합</span></td>
-									</tr>
-									<tr>
-										<th scope="row"><label for="pw_a"><span class="red">*</span> 비밀번호 확인</label></th>
-										<td><input type="password" name="pw_a" id="pw_a" class="col_4"><span class="form_txt">* 비밀번호를 다시 한번 입력해 주십시오</span></td>
-									</tr>
-									<tr>
-										<th scope="row"><label for="name"><span class="red">*</span> 이름</label></th>
-										<td><input type="text" name="name" id="name" class="col_4"></td>
-									</tr>
-									<tr>
-										<th scope="row"><label for="post"><span class="red">*</span> 주소</label></th>
-										<td><input type="text" name="post" id="post" class="col_1" title="우편번호 앞자리"> - <label for="post2"></label><input type="text" name="post2" id="post2" class="col_1" title="우편번호 뒷자리"><a href="#" class="nn2"><img src="images/sub_2/sub2_8.jpg" alt="우편번호 검색"></a><br/> 
-											<label for="add"></label><input type="text" name="add" id="add" class="col_12" title="상세 주소">
+										<th>날짜</th>
+										<td>
+											<input type="text" name="first_date" id="first_date" title="검색할 처음날짜">
+											<a href="#"><img src="images/sub_3/sub3__01.gif" alt="달력"></a> <span> - </span>
+											<input type="text" name="final_date" id="final_date" title="검색할 마지막날짜">
+											<a href="#"><img src="images/sub_3/sub3__01.gif" alt="달력"></a>
 										</td>
 									</tr>
 									<tr>
-										<th scope="row"><label for="phon1"><span class="red">*</span> 휴대전화</label></th>
-										<td><input type="text" name="phon1" id="phon1" class="col_1" title="전화지역번호"> - <label for="phon2"></label><input type="text" name="phon2" id="phon2" class="col_1" title="전화번호 앞 3~4자리"> - <label for="phon3"></label><input type="text" name="phon3" id="phon3" class="col_1" title="전화번호 뒷 3~4자리"></td>
-									</tr>
-									<tr>
-										<th scope="row"><label for="mail1"><span class="red">*</span> 이메일</label></th>
-										<td><input type="text" name="mail1" id="mail1" class="col_4"> @ <label for="mail2"></label><select name="mail2" id="mail2"><option value="직접입력">직접입력</option><option value="naver.com">naver.com</option><option value="daum.net">daum.net</option><option value="gmail.com">gmail.com</option><option value="nate.com">nate.com</option><option value="hanmail.com">hanmail.com</option><option value="empas.com">empas.com</option><option value="korea.com">korea.com</option></select>  <label for="mail3"></label><input type="text" name="mail3" id="mail3" class="col_4"></td>
-									</tr>
-									<tr>
-										<th scope="row"><label for="gety">이메일수신여부</label></th>
+										<th>검색어</th>
 										<td>
-											<p class="form_txt4">동작구에서 제공하는 행정정보(행사, 소식 등) 안내를 이메일로 수신하시겠습니까?
-											</p>
-											<input type="radio" name="getmail" id="gety" value="y" checked="checked"><label for="gety" class="form_txt3">예</label>
-											<input type="radio" name="getmail" id="getn" value="n"><label for="getn" class="form_txt3">아니오</label>
-											</td>
-									</tr>
-									<tr>
-										<th scope="row"><label for="getsns_y">SNS 수신여부</label></th>
-										<td>
-											<p class="form_txt4">동작구에서 제공하는 행정정보(행사, 소식 등) 안내를 핸드폰 문자서비스로 수신하시겠습니까?</p>
-											<input type="radio" name="getsns" id="getsns_y" value="y"  checked="checked">
-											<label for="getsns_y" class="form_txt3">예</label>
-											<input type="radio" name="getsns" id="getsns_n" value="n"><label for="getsns_n" class="form_txt3">아니오</label>
+											<select name="search_win" id="search_win" title="검색어 목록">
+												<option value="search_history">공적기록</option>
+												<option value="search_winner">수상자</option>
+											</select>
+											<input type="text" name="search_content" id="search_content" title="검색어 입력">
 										</td>
 									</tr>
 								</tbody>
 							</table>
-							<p class="jjj">
-								<input type="image" src="images/sub_2/sub2_9.jpg" alt="가입하기">
-							</p>
 						</fieldset>
 					</form>
-				</div>
+					<div class="search_btn">
+						<p><input type="image" id="search_date" src="images/sub_3/sub3__03.gif" alt="검색"></p>
+						<p><input type="reset" id="reset" value="취소"></p>
+					</div>
+				</div> 
+				<!-- //serach_wrap -->
+				<p class="total">총 7건</p>
+				<table class="table_board">
+					<caption>구민표창게시판</caption>
+				<!-- 	<colgroup>
+				 		<col width="">
+						<col width="">
+						<col width="">
+						<col width="">
+						<col width="">
+						<col width="">
+					</colgroup> -->
+					<thead>
+						<tr>
+							<th scope="col">번호</th>
+							<th scope="col">공적내용</th>
+							<th scope="col">수상자</th>
+							<th scope="col">추천기관</th>
+							<th scope="col">표창수여일</th>
+							<th scope="col">첨부파일</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>7</td>
+							<td>문화체육발전부문</td>
+							<td>김도윤</td>
+							<td>생활체육과</td>
+							<td><time datetime="2016-05-30">2016.5.30</time></td>
+							<td><a href="#"><img src="images/sub_3/sub3__05.gif" alt="Folder"></a></td>
+						</tr>
+						<tr>
+							<td>6</td>
+							<td>사회복지부문</td>
+							<td>김예리</td>
+							<td>가족지원센터</td>
+							<td><time datetime="2016-05-30">2016.5.30</time></td>
+							<td><a href="#"><img src="images/sub_3/sub3__05.gif" alt="Folder"></a></td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td>모범 청소년부문</td>
+							<td>오지수</td>
+							<td>보육여성과</td>
+							<td><time datetime="2016-05-30">2016.5.30</time></td>
+							<td><a href="#"><img src="images/sub_3/sub3__05.gif" alt="Folder"></a></td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>환경보호부문</td>
+							<td>이태준</td>
+							<td>영광교회</td>
+							<td><time datetime="2016-05-30">2016.5.30</time></td>
+							<td><a href="#"><img src="images/sub_3/sub3__05.gif" alt="Folder"></a></td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>지역사회발전부문</td>
+							<td>김영식</td>
+							<td>보건의약과</td>
+							<td><time datetime="2016-05-30">2016.5.30</time></td>
+							<td><a href="#"><img src="images/sub_3/sub3__05.gif" alt="Folder"></a></td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>효행부문</td>
+							<td>김혜경</td>
+							<td>흑석동</td>
+							<td><time datetime="2016-05-30">2016.5.30</time></td>
+							<td><a href="#"><img src="images/sub_3/sub3__05.gif" alt="Folder"></a></td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>사회질서확립부문</td>
+							<td>최정희</td>
+							<td>사당5동</td>
+							<td><time datetime="2016-05-30">2016.5.30</time></td>
+							<td><a href="#"><img src="images/sub_3/sub3__05.gif" alt="Folder"></a></td>
+						</tr>
+					</tbody>
+				</table>
+				<p class="paging">
+					<a href="#"><img src="images/sub_3/sub3__06.gif" alt="전전페이지"></a>
+					<a href="#"><img src="images/sub_3/sub3__07.gif" alt="전페이지"></a>
+					<span>1</span>
+					<a href="#"><img src="images/sub_3/sub3__08.gif" alt="다음페이지"></a>
+					<a href="#"><img src="images/sub_3/sub3__09.gif" alt="다다음페이지"></a>
+				</p>
 			</div>
 		</div>
 		<footer id="footer">
