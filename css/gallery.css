@@ -1,0 +1,44 @@
+@charset "utf-8";
+#content_g{width: 800px;float: right;}
+#content_g h3{font-size: 24px; font-weight: bold;color: #00a0fd;padding-top: 8px;border-bottom:3px solid #00a0fd;padding-bottom: 3px;}
+
+
+#k_sub_util{float: right;padding: 8px 0;}
+
+
+#sub_m_p{overflow:hidden;clear: both;}
+#sub_m_p img{float:left;border:5px solid #02a8e6;}
+#sub_m_p img:first-child{width:500px;}
+#sub_m_p .photo_ex{width: 290px;height: 385px;float:right;}
+.g_ex{width: 290px;height: 350px;margin-left: 20px;}
+.g_ex dl{overflow: hidden;padding-bottom: 6px;text-align: center;}
+.g_ex dt{background-color: #ccc;width: 66px;float: left;padding-right: 8px;height: 23px;line-height: 23px;text-align: center;}
+.g_ex dd{height: 23px;line-height: 23px;}
+.p_v_txt{width: 244px;height: 140px;float: none;
+	margin-top: 5px;margin-left: 10px;overflow-x: hidden;overflow-y: auto;}
+.down_ex{height: 34px;overflow: hidden;margin-left: 20px;text-align: center;}
+.d_ex_1{background-color:red;width: 130px;height: 34px;float: left;}
+.d_ex_2{background-color:green;width: 130px;height: 34px;float: right;}
+
+
+#sub_p_v{overflow: hidden;}
+#sub_p_v h3{border-bottom: none;padding-bottom: 3px;}
+#sub_p_v ul{padding: 15px 44px;}
+#sub_p_v li{float: left;padding-right: 10px;}
+#sub_p_v img{width: 170px;height: 100px;border:5px solid #02a8e6;}
+.p_v_button{position: relative;}
+.v_b_left{position: absolute;top: 30px;left: 0;}
+.v_b_right{position: absolute;top: 30px;right: 152px;}
+
+
+#sub_c_g{width: 1000px;clear: both;overflow: hidden;}
+#sub_c_g h3{font-size: 24px; font-weight: bold;color: #00a0fd;padding-bottom: 3px;}
+#sub_c_g img{width: 170px;height: 100px;border:5px solid #02a8e6;}
+#sub_c_g ul{padding-top: 15px;}
+#sub_c_g li{float: left;width: 200px;margin-bottom: 20px;}
+#sub_c_g li span{display:block;}
+
+.paging{text-align: center;margin-bottom: 20px;}
+.paging span a, .paging span strong{width: 19px;padding-left: 4px;height: 16px;line-height: 16px;display: inline-block;background:url(../images/gallery/paging_bar.gif) 0 50% no-repeat;}
+.paging span a:first-child{background: none;}
+.paging span strong{font-weight: bold;color: #326566;}
