@@ -25,7 +25,7 @@ h1 {margin-top: 16px;}
 #footer {position: relative;}
 #footer address {margin-left:170px;}
 #footer p:first-child {position: absolute; left:0; top:0;}
-#footer ul{overflow: hidden;  position: absolute; right:0; top:0;}
+#footer ul{overflow: hidden;  position: absolute; right:3px; top:0;}
 #footer ul li {float: left; padding-left:10px;}
 
 /***footer***/

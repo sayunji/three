@@ -20,7 +20,9 @@ figcaption{text-align: center; font-weight: bold;margin-top: 11px;}
 #tab_menu .s_mm{margin-top: 68px;}
 #tab_menu .s_bb{display: none;}
 #tab_menu li{background: url(../images/dot.gif) 6px 8px no-repeat;padding-left: 15px;height: 25px;}
-.s_b{background-color: #b5c6cd;padding: 10px 20px; display: inline-block;margin-left: 24px;margin-bottom: 14px;margin-top: 20px;}
+.s_g{overflow: hidden;}
+.s_b{background-color: #b5c6cd;padding: 10px 20px; /*display: inline-block;*/margin-left: 24px;
+	margin-bottom: 14px;margin-top: 20px;float: left;}
 .s_b a{color: #fff;}
 #tab_menu .s_m{position: absolute;top: 0;right: 0; overflow: hidden;}
 .s_nn{width: 503px;float: left;margin-left: 27px;margin-bottom: 27px;}
