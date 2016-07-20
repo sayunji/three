@@ -6,7 +6,7 @@ h1 {margin-top: 16px;}
 .util_menu {overflow: hidden; position: absolute; top:0px; right: 175px; }
 .util_menu li {float: left;border: 1px solid #eae6e7; padding: 3px 10px; font-size: 12px;}
 .l_sch_keyword {position: absolute; top: -1px; right: 0;}
-.l_sch_keyword input[type=search] {width: 120px;height: 26px;padding:0 4px;}
+.l_sch_keyword input[type=search] {width: 120px;height: 26px;padding:0px 4px; vertical-align: middle;}
 .gnb_menu {overflow: hidden; margin-top: 12.5px;}
 .gnb_menu>li>a:focus, .gnb_menu>li>a:hover {background-color: #fff; color:#02a8e6;}
 .gnb_menu>li {float: left; width: 141px; height: 45px;border-right: 1px solid #0a90cd;}
