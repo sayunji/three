@@ -1,0 +1,25 @@
+@charset "UTF-8";
+#sub_content ul{overflow: hidden;padding: 24px 74px;border-bottom: 1px solid #dbdbdb; margin-bottom: 60px;}
+#sub_content li{float: left;padding-left: 62px;}
+#sub_content li:first-child{padding: 0;}
+.red{color: #f7323c;}
+.col_1{width: 57px; }
+.col_4{width: 134px; }
+.col_12{width: 354px;}
+.tt form{float: right;margin: 0 50px;position: relative;}
+.tt form input[type="text"]{height: 23px;}
+.form_txt2{font-weight: bold;position: absolute;right: 0;top: -30px;}
+.table_row{width: 780px;border-top: 1px solid #727272;
+	margin-bottom: 30px;border-bottom: 1px solid #727272;position: relative;}
+.form_txt{font-weight: bold;position: absolute;right: 3px;}
+.form_txt3{font-weight: bold;}
+.form_txt4{font-weight: bold; margin-bottom: 4px;}
+#mail2 {height: 25px;}
+.nn{margin-left: 5px;}
+.nn2{margin-left: 10px;}
+#add{margin-top: 4px;}
+.table_row th, .table_row td{border-bottom: 1px solid #d2d4d3;padding: 13px 34px;}
+.table_row th{text-align: left;padding-left: 20px;background-color: #e4e6e5;}
+.table_row .re{margin-left: -10px;}
+.table_row td{padding-left: 10px;}
+.jjj{text-align: center;margin-bottom: 50px;}

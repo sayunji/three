@@ -1,0 +1,15 @@
+﻿@charset "utf-8";
+*{margin: 0;padding: 0;}
+li{list-style-type: none;}
+img{border: none;vertical-align: middle;}
+body{font: 12px/1.4 Malgun Gothic,"맑은 고딕", Arial,sans-serif; color:#333;background:url(../images/bg_body.gif) 0 0 repeat-x;}
+input, select{font: 12px/1.4 Malgun Gothic,"맑은 고딕", Arial,sans-serif; color:#333; vertical-align: middle;}
+input[type=text] {border: 1px solid #b4b4b4; height: 23px;}
+select{border: 1px solid #b4b4b4;height: 25px;vertical-align: middle;}
+a{text-decoration: none; color:#333;}
+.hide, legend{position: absolute; left:-9999px;}
+caption{text-indent: -9999px; height: 0; overflow: hidden; font-size: 0;}
+fieldset {border: none;}
+h1,h2,h3,h4,h5,h6,address {font-size: 100%; font-weight: normal;font-style: normal;}
+th, td{font-weight: normal; text-align: left;}
+table{border-collapse:collapse;}
